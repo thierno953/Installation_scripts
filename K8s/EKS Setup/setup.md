@@ -83,7 +83,7 @@ eksctl create nodegroup --cluster=Thierno-EKS \
                        --nodes-max=4 \
                        --node-volume-size=20 \
                        --ssh-access \
-                       --ssh-public-key=mrDevOps \
+                       --ssh-public-key=thierno_key \
                        --managed \
                        --asg-access \
                        --external-dns-access \
